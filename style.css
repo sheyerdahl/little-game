@@ -1,0 +1,147 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+ /* font-family: 'Montserrat', sans-serif; */
+  background-color: grey;
+ }
+
+h1 {
+	font-size: 2rem;
+	color: #e2dbdb;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: color 0.2s;
+}
+
+h1:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.numbers {
+	color: grey;
+	width: 10%;
+	height: 8%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50%;
+}
+
+h2 {
+	height: 5em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 160px;
+	user-select: none;
+}
+
+.number1 {
+	transition: color 0.2s;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	width: 10%;
+	height: 25%;
+	
+}
+
+.number1:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.number2 {
+	transition: color 0.2s;
+	position: absolute;
+	left: 65%;
+	top: 65%;
+	width: 15%;
+	height: 35%;
+}
+
+.number2:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.number3 {
+	transition: color 0.2s;
+	transition: transform 2s;
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	width: 15%;
+	height: 35%;
+}
+
+.number3:hover {
+	cursor: pointer;
+	color: black;
+	transform: rotate(7200deg);
+}
+
+.number4 {
+	transition: color 0.2s;
+	position: absolute;
+	left: 60%;
+	top: 10%;
+	width: 15%;
+	height: 35%;
+	transform: rotate(180deg);
+}
+
+.number4:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.number5 {
+	transition: color 0.2s;
+	position: absolute;
+	left: 80%;
+	top: 25%;
+	width: 15%;
+	height: 35%;
+	transform: rotate(90deg);
+}
+
+.number5:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.number6 {
+	transition: color 0.2s;
+	transition: transform 45s;
+	transition-timing-function: linear;
+	position: absolute;
+	left: 5%;
+	top: 65%;
+	width: 15%;
+	height: 35%;
+}
+
+.number6:hover {
+	cursor: pointer;
+	color: black;
+	transform: rotate(10000deg);
+}
+
+.number7 {
+	transition: color 0.2s;
+	transition: transform 0.2s;
+	position: absolute;
+	left: 30%;
+	top: 15%;
+	width: 15%;
+	height: 35%;
+}
+
+.number7:hover {
+	cursor: pointer;
+	color: black;
+	transform: skewY(-40deg);
+}
